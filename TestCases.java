@@ -52,8 +52,8 @@ public class TestCases {
         // Click on Enter Email text box Using Locator "ID" "identifierId"
         WebElement emailTxtBox=  driver.findElementById("identifierId");
         emailTxtBox.click();
-        // Type in email "jojobizarrewqq@gmail.com"  
-        emailTxtBox.sendKeys("jojobizarrewqq@gmail.com");
+        // Locate the Email text Box & Enter Email "PLEASE ENTER YOUR EMAIL ID" 
+        emailTxtBox.sendKeys("PLEASE ENTER YOUR EMAIL ID");
         // Click on next button  Using Locator "XPath" "//span[contains(text(),'Next')]"
         driver.findElementByXPath("//span[contains(text(),'Next')]").click();
         // wait for 3 sec 
@@ -61,8 +61,8 @@ public class TestCases {
         // Click on Enter Password text box Using Locator "XPath":"//input[@aria-label='Enter your password']"
         WebElement passTextBox=  driver.findElementByXPath("//input[@aria-label='Enter your password']");
         passTextBox.click();
-        // Type in Password - mR#6z$L@p9*qK2!  
-        passTextBox.sendKeys("mR#6z$L@p9*qK2!");
+        // Locate the Password text Box & Enter Password "PLEASE ENTER YOUR PASS"
+        passTextBox.sendKeys("PLEASE ENTER YOUR PASS");
         // Click on next button  Using Locator "XPath" "//span[contains(text(),'Next')]"
         driver.findElementByXPath("//span[contains(text(),'Next')]").click();
 
